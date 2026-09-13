@@ -622,7 +622,7 @@ public static void processSpaceCalculation() {
                     System.out.println("Esa opción no está en la lista. Ingresa un número entre " + min + " y " + max + ".");
                 }
             } else {
-                System.out.println("Necesitamos un número entero. Intenta de nuevo.");
+                System.out.println("Necesitamos un numero entero. Intenta de nuevo.");
                 sc.nextLine();
             }
         }
@@ -648,10 +648,10 @@ public static void processSpaceCalculation() {
                 if (value > 0.0) {
                     valid = true;
                 } else {
-                    System.out.println("El número debe ser mayor a 0. Intenta de nuevo.");
+                    System.out.println("El numero debe ser mayor a 0. Intenta de nuevo.");
                 }
             } else {
-                System.out.println("Por favor ingresa un número válido.");
+                System.out.println("Por favor ingresa un numero valido.");
                 sc.nextLine();
             }
         }
@@ -677,10 +677,10 @@ public static void processSpaceCalculation() {
                 if (value >= 0.0) {
                     valid = true;
                 } else {
-                    System.out.println("El número no puede ser negativo. Intenta de nuevo.");
+                    System.out.println("El numero no puede ser negativo. Intenta de nuevo.");
                 }
             } else {
-                System.out.println("Por favor ingresa un número válido.");
+                System.out.println("Por favor ingresa un numero válido.");
                 sc.nextLine();
             }
         }
